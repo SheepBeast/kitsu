@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { add, del } from '../store/actions';
+import { add, del } from '../store/home/actions';
 
 class Home extends Component {
   static fetch() {

@@ -5,10 +5,10 @@ import {match, RouterContext} from 'react-router'
 import { BrowserRouter, StaticRouter } from 'react-router-dom';
 import { matchRoutes, renderRoutes } from 'react-router-config';
 import { AppContainer } from 'react-hot-loader';
-import Layout from '../../component/layout';
-import App from './components';
-import { create } from './components/store';
-import routes from './components/router'
+import Layout from './component/layout';
+import App from './page/app';
+import { create } from './store';
+import routes from './routes'
 import './index.css';
 
 const clientRender = () => {
